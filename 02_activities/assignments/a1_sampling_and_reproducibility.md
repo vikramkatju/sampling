@@ -14,26 +14,64 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 
 ```
 
-Sampling occurs at two stages in this simulation. In the first stage, the sampling helps inform which individuals attending weddings or brunches get infected initially. The np.random.choice() function is used for the sampling in this stage. A dataframe comprising of 800 people attending  brunches and 200
+Sampling occurs at two stages in this simulation. In the first stage, the sampling helps inform which individuals 
+
+attending weddings or brunches get infected initially. The np.random.choice() function is used for the sampling
+
+ in this stage. A dataframe comprising of 800 people attending  brunches and 200
  
-people attending weddings is first created as per the blog post. 10 percent of these 1000 individuals are then randomly chosen to be infected by the simulation. This implies that the sample size in this first stage of sampling is approximately 100 (we expect to see minor deviations from 100 since a 
+people attending weddings is first created as per the blog post. 10 percent of these 1000 individuals are then
 
-randomization function is being used here). Since all 1000 members of this community have attended either a brunch or a wedding, as per the blog post,  the sampling frame comprises all 1000 individuals in the community. Note that the np.random.choice() function, when used with the replace = False flag 
+ randomly chosen to be infected by the simulation. This implies that the sample size in this first stage of
+ 
+  sampling is approximately 100 (we expect to see minor deviations from 100 since a 
 
-(sampling without replacement), which is used to randomly infect 10 percent of the 1000 individuals in the community, uses the binomial distribution. Here, this implies that each member of the community independently has a 10 percent chance of being infected. 
+randomization function is being used here). Since all 1000 members of this community have attended
 
-In the second stage the sampling determines which of the infected individuals are traced successfully. This stage of the sampling uses the np.random.rand function. The sampling frame at this stage of sampling comprises all the infected members in the community. The np.random.rand distribution uses the 
+ either a brunch or a wedding, as per the blog post,  the sampling frame comprises all 1000 individuals 
+ 
+ in the community. Note that the np.random.choice() function, when used with the replace = False flag 
 
-uniform distribution to decide whether each infected individual is successfully traced based on the 'trace success' probability of 0.20.
+(sampling without replacement), which is used to randomly infect 10 percent of the 1000 individuals in
+
+ the community, uses the binomial distribution. Here, this implies that each member of the community
+ 
+  independently has a 10 percent chance of being infected. 
+
+In the second stage the sampling determines which of the infected individuals are traced successfully.
+
+ This stage of the sampling uses the np.random.rand function. The sampling frame at this stage of 
+ 
+ sampling comprises all the infected members in the community. The np.random.rand distribution uses
+ 
+  the uniform distribution to decide whether each infected individual is successfully traced based on the
+  
+   'trace success' probability of 0.20.
 
 
-After running the whitby_covid_tracing.py file and comparing the obtained graphs to the graphs in the original blog posts one observes that the graphs are not the same. Specifically, while the distribution of the 'infections from weddings' variable appears to be approximately the same there is a significant 
+After running the whitby_covid_tracing.py file and comparing the obtained graphs to the graphs in the 
 
-difference in the distribution of the 'Traced to weddings' (observed proportion of infections traced to weddings) variable. 
+original blog posts one observes that the graphs are not the same. Specifically, while the distribution of
 
-Every time we run the script the obtained graphs are approximately the same with minor variations. This is because the graphs being obtained use randomly sampled data from the total dataset. To make the obtained graphs reproducable the random seed function (np.random.seed) should be used 
+ the 'infections from weddings' variable appears to be approximately the same there is a significant 
 
-appropriately just before sampling as has been done in the submitted .ipynb file (whitby_covid_tracing_100.ipynb). Using the random.seed function ensures that the same data will be sampled every time the script is run thereby ensuring that the graphs being produced by the script will be identical every time.
+difference in the distribution of the 'Traced to weddings' (observed proportion of infections traced to
+
+ weddings) variable. 
+
+Every time we run the script the obtained graphs are approximately the same with minor variations.
+
+ This is because the graphs being obtained use randomly sampled data from the total dataset. To make
+ 
+  the obtained graphs reproducable the random seed function (np.random.seed) should be used 
+
+appropriately just before sampling as has been done in the submitted .ipynb file 
+
+(whitby_covid_tracing_100.ipynb). Using the random.seed function ensures that the same data will
+
+ be sampled every time the script is run thereby ensuring that the graphs being produced by the script 
+ 
+ will be identical every time.
 
 (Please note that the file with my corrections is called whitby_covid_tracing_100.ipynb.)
 
