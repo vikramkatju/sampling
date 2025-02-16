@@ -33,9 +33,10 @@ difference in the distribution of the 'Traced to weddings' (observed proportion 
 
 Every time we run the script the obtained graphs are approximately the same with minor variations. This is because the graphs being obtained use randomly sampled data from the total dataset. To make the obtained graphs reproducable the random seed function (np.random.seed) should be used 
 
-appropriately just before sampling as has been done in the submitted .ipynb file (whitby_covid_tracing_100.ipynb). Using the random.seed function ensures that the same data will be sampled from the total dataset. This will ensure that the graphs being produced by the script will be identical every time the 
+appropriately just before sampling as has been done in the submitted .ipynb file (whitby_covid_tracing_100.ipynb). Using the random.seed function ensures that the same data will be sampled every time the script is run thereby ensuring that the graphs being produced by the script will be identical every time.
 
-script is run.
+(Please note that the file with my corrections is called whitby_covid_tracing_100.ipynb.)
+
 
 ```
 
