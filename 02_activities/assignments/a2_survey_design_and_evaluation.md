@@ -40,30 +40,239 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `# 2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to measure the opinion of those responding on significant issues pertaining to the Canadian
+
+ Federal election, on the attitude of those responding towards the  party and party leadership for which I work and 
+ 
+ also towards the opponent party and party leadership.  Further, the survey will try to obtain some
+ 
+ measures and insight about the people responding to the survey. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all residents of Canada eligible to vote in the upcoming (hypothetical) Canadian federal election.
+
+The sampling frame would depend on the study design. One possibility is for the sampling frame to comprise some 
+
+appropriate database containing contact information of individuals eligible to vote in the Canadian federal elections.
+
+The sampling units are all individuals who have been included in the sample.
+
+With respect to the overall sampling strategy I would prefer to employ some type of stratified probability sampling so that the sample should
+
+include individuals from all provinces with more weightage given  to include individuals from provinces with a larger 
+
+population (that is, more weightage should be given so as to include in the sample individuals from provinces with 
+
+a larger number of federal electoral districts).
+
+
+Note: In what follows, let A be the political party for which I am working and B be the the political party which is the primary
+
+opponent of Party A. C and D are other rival political parties.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How likely is it that you will vote in the upcoming Federal election--will you definitely vote, probably vote, might or
+
+might not vote, probably not vote, or have you already voted through early voting?
+
+(a) Already voted through early voting
+
+(b) Definitely vote
+
+(c) Probably vote
+
+(d) Might or might not vote
+
+(e) Probably not vote
+
+(f) Not sure
+
+
+2 (a) [If already voted in Q1, ask:]. With respect to your riding in the upcoming federal election did you vote for
+
+ [the candidate of Party A]  or [the candidate of Party B] or [the candidate of Party C] or [the candidate of Party D]
+ 
+  or did you vote for someone else?
+
+(a) Party A candidate
+
+(b) Party B candidate
+
+(c) Party C (some other relatively inconsequential party) candidate
+
+(d) Party D (some other relatively inconsequential party) candidate
+
+(e) Someone else
+
+(f) Will not vote
+
+
+2 (b) [If definitely voted in Q1, ask:). With respect to your riding if the federal election were held today would you vote for
+
+ [the candidate of Party A] or [the candidate of Party B] or [the candidate of Party C] or [the candidate of Party D] or will you vote for someone else?
+
+
+(a) Party A
+
+(b) Party B
+
+(c) Party C (some other relatively inconsequential party)
+
+(d) Party D (some other relatively inconsequential party)
+
+(e) Someone else
+
+(f) Will not vote
+
+
+3. Would you say you have made up your mind to support your candidate, or could you still be persuaded to support a
+
+different candidate?
+
+(a) Mind is made up
+
+(b) Could be persuaded
+
+(c) Not sure
+
+(d) No preferred candidate
+
+
+4. How would you describe your enthusiasm level for your candidate of choice?
+
+(a) Extremely enthusiastic
+
+(b) Very Enthusiastic
+
+(c) Mildly Enthusiastic
+
+(d) Not that enthusiastic
+
+(e) Not sure
+
+(f) No preferred candidate
+
+
+5(a)  What is your age? (Record actual age)
+
+5(b) [to be asked only if the respondent refuses to answer 5(a)]
+
+(a) Under 25
+
+(b) 25 to 34
+
+(c) 35 to 44
+
+(d) 45 to 54
+
+(e) 55 to 64
+
+(f) 65 and over
+
+
+
+6. Are you currently married?
+
+(a) Yes
+
+(b) No
+
+
+
+
+7. What is the last grade of school you completed?
+
+(a) High school graduate or less
+
+(b) Some college
+
+(c) Bachelor's (four year degree)
+
+(d) Some postgraduate
+
+(e) Postgraduate degree
+
+
+
+
+8. Which of the following best describes your ethnicity:
+
+(a) White
+
+(b) Black
+
+(c) First Nations, Inuit, or Metis
+
+(d) East Asian
+
+(e) South Asian
+
+(f) Southeast Asian
+
+(g) Hispanic
+
+(h) Middle Eastern
+
+(i) Other
+
+(j) Not sure
+
+
+9. Which of the following best describes your religious beliefs?
+
+(a) Roman Catholic
+
+(b) Protestant
+
+(c) Other Christian
+
+(d) Hindu
+
+(e) Buddhist
+
+(f) Muslim
+
+(g) Jewish
+
+(h) Other
+
+(i) Atheist 
+
+10. What is your gender or sex?
+
+(a) Male
+
+(b) Female
+
+(c) Other (please specify:)
+
+
+11. What is your total annual household income before taxes
+
+(a) < $50, 000
+
+(b) $50,000 to $69,999
+
+(c) $70,000 to $99,999
+
+(d) $100,000+
+
+
+
+
+
+
+
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +280,59 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: 
+
+Stratified design employing probability sampling
+
+2. Sample size:
+
+Approximately 24,000
+
+3. Target population:
+The target population includes all persons 15 years of age and older living in the ten provinces of Canada. 
+It, however, excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame:
+Residents of the ten provinces of Canada who are not residing in any institution and who have
+at least one functional landline or cellular phone.
+
+5. Survey mode(s):
+Electronic questionnaire and computer assisted telephone interviewing (CATI)
+
+6. Timeline:
+
+2018-09-04 to 2018-12-28
+
+7. Response rate:
+
+41.9 percent
+
+8. Weights:
+The number of people represented by a single respondent in this survey is known as the weight or
+weighting factor.  In addition to the estimation weights, bootstrap weights have been created for the 
+purpose of design-based variance estimation.Estimates based on the survey data are also adjusted 
+(by weighting) so that they are representative of the target population with regard to certain characteristics
+
+9. Data processing:
+Standard data processing steps such as imputation and family, flow and consistency edits were used.
+Also, various computer edits using the CATI system were developed to perform error detection.
+
+10. Cleaning, imputation, etc:
+Most missing values were filled with imputations using donor records selected through a score function. A few
+missing values were filled using mean imputation in cases where donor imputation could not be reached.
+
+11. Sources of error:
+The study appears to contain both sampling errors (for instance, households without a phone were not included in the study sample) as well as non-sampling errors
+such as non-response bias.
+
+12. Limitations, known biases, etc:
+The study suffers from Non-response bias and also from a major limitation in that households without a phone 
+were not included in the study sample.
+
+13. Link to documentation and any additional sources used:
+
+ https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
